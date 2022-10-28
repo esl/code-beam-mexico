@@ -2,16 +2,16 @@
 #  link: "cover"
 - name: Welcome
   link: "welcome"
-# - name: Register
-#   link: "register"
+- name: Register
+  link: "register"
+- name: Call for Talks
+  link: "cft"
 # name: Newsletter
 #  link: "newsletter"
 #- name: Call for Tutorials
 #  link: "call-for-tutorials"
 #- name: All Recordings
 #  link: "recordings"
-# - name: Student
-#   link: "student"
 #- name: Public videos
 #  link: "video"
 # - name: Schedule
@@ -22,12 +22,16 @@
 #   link: "trainers"
 # - name: Training
 #   link: "training"
-# - name: Diversity
-#   link: "diversity"
-# - name: Volunteer
-#   link: "volunteer"
-# - name: Venue
-#   link: "venue"
+- name: Volunteer
+  link: "volunteer"
+- name: Venue
+  link: "venue"
+- name: Sponsorship
+  link: "sposorship"
+- name: Diversity
+  link: "diversity"
+- name: Student
+  link: "student"
 # - name: Hotels
 #   link: "hotels"
 #- name: COVID-19 safety
@@ -38,8 +42,6 @@
 #  link: "shop"
 #- name: Blog
 #  link: "blog"
-#- name: Call for Talks
-#  link: "cft"
 #- name: Programme Committee
 #  link: "members"
 - name: Sponsors
