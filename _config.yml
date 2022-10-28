@@ -1,7 +1,7 @@
 title: Code BEAM Mexico
 description: "The major Elixir and Erlang event in México. The Elixir and Erlang community celebrates ten years of Elixir in Mexico City. Meet people and companies using and developing high performance, fault-tolerant and resilient applications that scale to billions of users in production in areas like Fintech, eCommerce, IoT, Gaming, Blockchain, Security, Machine Learning and more."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://codebeamamerica.com" # the base hostname & protocol for your site
+url: "https://codebeammexico.com/" # the base hostname & protocol for your site
 
 logo: "./assets/images/logo2022.png"
 
