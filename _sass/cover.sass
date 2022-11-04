@@ -1,31 +1,43 @@
+@mixin content-text
+    font-family: "Montserrat", sans-serif
+    color: #fff
+    font-size: 1.2em
+    font-weight: 300
+    line-height: 1.5em
+    margin: 0 0 1.5em 0
+    text-align: left
+
+    
 .cover
     align-items: space-between
     background-size: cover
     background-repeat: no-repeat
     background-color: #000101
+    background-position: bottom
     color: #fff
     display: flex
     height: auto
     flex-wrap: wrap
-    padding: 8em 0 0 0
+    padding: 8em 0 4em 0
     justify-content: center
     width: 100%
+
     @media only screen and (max-width: 1112px)
         height: auto
         text-align: center
     .logo
-        min-height: 500px
+        // min-height: 500px
         max-width: 500px
         width: 60%
         img 
             display: block
         @media only screen and (max-width: 1112px)
-            width: 90%
+            width: 70%
         img
             height: auto
-            width: 100%
+            width: 80%
         @media only screen and (max-width: 634px)
-            min-height: 320px
+            min-height: 30px
             img
                 display: block
     .col-right
@@ -44,13 +56,18 @@
             letter-spacing: .1em
             margin: 0 0 1.5em 0
             text-align: left
+            text-transform: capitalize
+
         p
-            color: #fff
-            font-size: 1.2em
-            font-weight: 300
-            line-height: 1.5em
-            margin: 0 0 1.5em 0
-            text-align: left
+            @include content-text
+        
+        ul
+            li
+                @include content-text
+                list-style-position: inside
+                margin: 0
+
+
     .open
         font-size: 1.8em
         font-style: italic
@@ -84,3 +101,5 @@
         .call-for-talks
             line-height: 36px
             text-align: center
+
+

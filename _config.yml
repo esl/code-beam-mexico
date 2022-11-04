@@ -1,8 +1,7 @@
 title: Code BEAM Mexico
-description: > # this means to ignore newlines until "baseurl:"
-  Welcome to Code BEAM Mexico, a conference organised by Code Sync. Code BEAM Mexico is the premiere Erlang and Elixir conference in Mexico, bringing the best speakers in the community together, for two days of first-rate BEAM-related talks and two days of tutorials.
+description: "The major Elixir and Erlang event in México. The Elixir and Erlang community celebrates ten years of Elixir in Mexico City. Meet people and companies using and developing high performance, fault-tolerant and resilient applications that scale to billions of users in production in areas like Fintech, eCommerce, IoT, Gaming, Blockchain, Security, Machine Learning and more."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://codebeamamerica.com" # the base hostname & protocol for your site
+url: "https://codebeammexico.com/" # the base hostname & protocol for your site
 
 logo: "./assets/images/logo2022.png"
 
@@ -87,7 +86,7 @@ defaults:
 # Google Map JS api
 # This is my api for this template
 key-api: AIzaSyBf-F7nBzxi_73uI9QUxRQ-cNihYtlZ_AA
-map-text: Computer History Museum
-map-text-location: 41401 N Shoreline Blvd, Mountain View, CA 94043
-map-lat: 37.4145135
-map-lng: -122.0787026
+map-text: Mexico City
+map-text-location: ""
+map-lat: 19.4292312
+map-lng: -99.1257654

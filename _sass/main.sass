@@ -20,6 +20,9 @@ time, mark, audio, video
   font: inherit
   vertical-align: baseline
 
+  body
+    background-color: $background-color
+
 *
   box-sizing: border-box
 
@@ -217,7 +220,7 @@ a
 
 .section
   align-items: center
-  background-color: #000101
+  background-color: $background-color
   display: flex
   flex-wrap: wrap
   height: auto
@@ -243,7 +246,7 @@ a
     width: 100%
   hr
     border: none
-    background: linear-gradient(to right, #0074a9 50%, $primary-color 50%)
+    background: linear-gradient(to right, $secondary-color 50%, $primary-color 50%)
     display: block
     height: .3em
     margin-top: 2em
@@ -398,13 +401,6 @@ a
   border-right: 1px solid
   border-bottom: 1px solid
   border-left: 1px solid
-
-.call-for-talks
-  align-items: center
-  display: flex
-  flex-flow: column
-  @media only screen and (max-width: 634px)
-    padding: 0 2em 2em 2em
 
 .column
   float: left
