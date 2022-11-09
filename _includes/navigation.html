@@ -9,7 +9,13 @@
     <ul class="nav navigation-bar">
         {% for item in site.data.navigation %}
             <li>
-                <a class="page-scroll" href="#{{ item.link }}">{{ item.name }}</a>
+                <a class="page-scroll" href="#{{ item.link }}">
+                    {% if page.path == "es/index.html" %}
+                        {{ item.es }}
+                    {% else %}
+                        {{ item.name }}
+                    {% endif %}
+                </a>
             </li>
         {% endfor %}
     </ul>

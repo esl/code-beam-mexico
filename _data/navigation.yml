@@ -2,10 +2,13 @@
 #  link: "cover"
 - name: Welcome
   link: "welcome"
+  es: "Bienvenidos"
 - name: Register
   link: "register"
+  es: "Registro"
 - name: Call for Talks
   link: "cft"
+  es: "Participa"
 # name: Newsletter
 #  link: "newsletter"
 #- name: Call for Tutorials
@@ -24,14 +27,19 @@
 #   link: "training"
 - name: Volunteer
   link: "volunteer"
+  es: "Voluntarios"
 - name: Students
   link: "students"
+  es: "Estudiantes"
 - name: Venue
   link: "venue"
+  es: "Sede"
 - name: Diversity
   link: "diversity"
+  es: "Diversidad"
 - name: Sponsorship
   link: "sponsorship"
+  es: "Patrocinio"
 # - name: Hotels
 #   link: "hotels"
 #- name: COVID-19 safety
@@ -48,3 +56,4 @@
 #   link: "sponsors"
 - name: Contact
   link: "contact"
+  es: "Contacto"
