@@ -24,14 +24,14 @@
 #   link: "training"
 - name: Volunteer
   link: "volunteer"
-- name: Venue
-  link: "venue"
-- name: Sponsorship
-  link: "sponsorship"
-- name: Diversity
-  link: "diversity"
 - name: Students
   link: "students"
+- name: Venue
+  link: "venue"
+- name: Diversity
+  link: "diversity"
+- name: Sponsorship
+  link: "sponsorship"
 # - name: Hotels
 #   link: "hotels"
 #- name: COVID-19 safety
@@ -44,7 +44,7 @@
 #  link: "blog"
 #- name: Programme Committee
 #  link: "members"
-- name: Sponsors
-  link: "sponsors"
+# - name: Sponsors
+#   link: "sponsors"
 - name: Contact
   link: "contact"
