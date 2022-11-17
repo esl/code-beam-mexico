@@ -36,6 +36,10 @@ a { font-family: 'Montserrat', sans-serif; font-size: 100%; font-weight: normal;
 
 @media only screen and (max-width: 1112px) { .navbar-fixed-top { justify-content: space-between; flex-wrap: wrap; padding: 1em 0; overflow-y: scroll; } .navbar-fixed-top .nav { display: none !important; margin-top: 1em; width: 100%; } .navbar-fixed-top .nav li { height: 3.5em; width: 100%; } .navbar-fixed-top .nav li a { color: #ffffff; align-items: center; background-color: #000000; border-bottom: solid .01em #efefef; display: flex; flex-grow: 1; height: 100%; margin: 0; padding: .2em 1em 0 1em; width: 100%; } .navbar-fixed-top .active { display: flex !important; flex-wrap: wrap; } }
 
+.navbar-fixed-top .lang li { list-style: none; color: #fff; }
+
+.navbar-fixed-top .lang li a { color: #fff; }
+
 .navbar-fixed-top .logo { background-image: url("../../assets/images/codesync-logo.svg"); background-position: 0 0; background-repeat: no-repeat; background-size: contain; display: block; height: 2em; width: 2em; }
 
 @media only screen and (max-width: 1112px) { .navbar-fixed-top .logo { margin-left: 2em; } }
@@ -196,7 +200,7 @@ a { font-family: 'Montserrat', sans-serif; font-size: 100%; font-weight: normal;
 
 @media only screen and (max-width: 1112px) { .cover { height: auto; text-align: center; } }
 
-.cover .logo { max-width: 500px; width: 60%; }
+.cover .logo { max-width: 500px; width: 60%; align-self: center; }
 
 .cover .logo img { display: block; }
 
