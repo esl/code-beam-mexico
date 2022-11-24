@@ -9,6 +9,9 @@ logo: "./assets/images/logo2022.png"
 
 include: [archives]
 
+exclude:
+- docs/
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
