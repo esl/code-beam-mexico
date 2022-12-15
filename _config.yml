@@ -89,7 +89,7 @@ defaults:
 # Google Map JS api
 # This is my api for this template
 key-api: AIzaSyBf-F7nBzxi_73uI9QUxRQ-cNihYtlZ_AA
-map-text: Mexico City
-map-text-location: ""
-map-lat: 19.4292312
-map-lng: -99.1257654
+map-text: Code Spaces, CDMX
+map-text-location: Facultad de Ingeniería, UNAM
+map-lat: 19.3314918
+map-lng: -99.1849444
