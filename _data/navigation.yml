@@ -37,9 +37,9 @@
 - name: Diversity
   link: "diversity"
   es: "Diversidad"
-- name: Sponsorship
-  link: "sponsorship"
-  es: "Patrocinio"
+- name: Sponsors
+  link: "sponsors"
+  es: "Patrocinadores"
 # - name: Hotels
 #   link: "hotels"
 #- name: COVID-19 safety
