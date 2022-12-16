@@ -31,6 +31,9 @@
 - name: Students
   link: "students"
   es: "Estudiantes"
+- name: Programme Committee
+  link: "members"
+  es: "Comité"
 - name: Venue
   link: "venue"
   es: "Sede"
@@ -50,8 +53,6 @@
 #  link: "shop"
 #- name: Blog
 #  link: "blog"
-#- name: Programme Committee
-#  link: "members"
 # - name: Sponsors
 #   link: "sponsors"
 - name: Contact

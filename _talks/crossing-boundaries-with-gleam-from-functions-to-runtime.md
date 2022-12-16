@@ -7,7 +7,7 @@ tags:
 - Runtime
 title: Crossing boundaries with Gleam - from functions to runtime
 speakers:
-- _participants/raul-chouza.md
+- _participants/raul-chouza-old.md
 
 ---
 As BEAM programming languages go, Gleam is a rising star that mantains the same capabilities we love from the platform but adds a slightly different route for constructing programs.  
