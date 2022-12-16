@@ -10,5 +10,5 @@ While at a desk Raúl spends time learning about the BEAM and its ecosystem; he 
 
 Otherwise, he’s a recent dad; enjoys solo videogames and exploring boardgame simulations; loves trying out traditional food and having friends over dinner. Operates from Tijuana, México where he was born and lives.
 
-<a href="https://www.chourassicpark.xyz/#Explorations">https://www.chourassicpark.xyz/#Explorations</a>
+<a href="https://www.chourassicpark.xyz/#Explorations" target=_blank>https://www.chourassicpark.xyz/#Explorations</a>
 
