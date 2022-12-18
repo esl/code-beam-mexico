@@ -6,9 +6,9 @@ github:
 twitter: chouzaraul
 
 ---
-While at a desk Raúl spends time learning about the BEAM and its ecosystem; he enjoys learning about the nuances of programming and would like programs to tell you more, especially when they go wrong.
+While at a desk Raúl spends time learning about the BEAM and getting into programming rabbit-holes. He would like programs to tell you more, especially when they go wrong, has spent his last elixir years on the look for contracts and type systems.
 
-Otherwise, he’s a recent dad; enjoys solo videogames and exploring boardgame simulations; loves trying out traditional food and having friends over dinner. Operates from Tijuana, México where he was born and lives.
+While out of a desk he enjoys weird solo-videogames and owns a collection of historical boardgames; loves trying out traditional food; has a small family with his wife, baby daughter and cat. 
 
-<a href="https://www.chourassicpark.xyz/#Explorations" target=_blank>https://www.chourassicpark.xyz/#Explorations</a>
+Operates from Tijuana, México where he was born and lives.
 
