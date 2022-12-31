@@ -31,7 +31,7 @@
 - name: Students
   link: "students"
   es: "Estudiantes"
-- name: Programme Committee
+- name: Committee
   link: "members"
   es: "Comité"
 - name: Venue
