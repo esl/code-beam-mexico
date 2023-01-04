@@ -13,4 +13,4 @@ To manipulate this repo
 - Edit top menu at `_data/navigation.ytml`
 - Include .scss at `assets/css/styles.css`
 - Spanish version by using `es/index.html` and `_includes/es/*.html`
-
+- Participant page includes thi talks
