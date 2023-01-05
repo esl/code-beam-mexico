@@ -1,14 +1,14 @@
 ---
 trainings:
-- training: _trainings/mx23-erlang-otp.md
+- training: _trainings/erlang-otp.md
   date-announced: false
   end: 2022-11-01T20:00:00.000+00:00
   end: 2022-11-02T20:00:00.000+00:00
-- training: _trainings/mx23-introduccion-elixir.md
+- training: _trainings/introduccion-elixir.md
   date-announced: false
   end: 2022-11-01T20:00:00.000+00:00
   end: 2022-11-02T20:00:00.000+00:00
-- training: _trainings/mx23-jeffrey.md
+- training: _trainings/tba-jeffrey.md
   date-announced: false
   end: 2022-11-01T20:00:00.000+00:00
   end: 2022-11-02T20:00:00.000+00:00
