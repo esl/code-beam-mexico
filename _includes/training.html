@@ -1,5 +1,5 @@
 <script>
-    function write_dates(start, end) {
+    function write_dates(start, end) {       	
         s = new Date(start)
         out = ""
         out += s.getFullYear() + "-" + (s.getMonth() + 1).toString().padStart(2, "0") + "-" + s.getDate().toString().padStart(2, "0")
@@ -24,19 +24,20 @@
 
                 {% assign start = item.start | date: '%Y-%m-%dT%H:%M:%SZ'%}
                 {% assign end = item.end | date: '%Y-%m-%dT%H:%M:%SZ'%}
+                {% if item.date-announced == True %}
 
-
-                <script>
-
-                    write_dates("{{start}}", "{{end}}")
-
-                </script>
-                <noscript> {{start}} - {{end}} </noscript>
+	                <script>
+	                    write_dates("{{start}}", "{{end}}", "{{announced}}")
+	                </script>
+    	            <noscript> {{start}} - {{end}} </noscript>
+                {% else %}
+					<b>TBA</b>
+                {% endif %}
             </div>
 
             <div class="item-col item-training">
                 <a href="{{training.url | relative_url }}">
-                    <p class="item-title">{{training.title }}
+                    <p class="item-title">{{training.name }}
                     </p>
                 </a>
                 {% for trainer_path in training.trainers %}
