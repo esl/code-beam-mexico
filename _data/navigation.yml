@@ -3,6 +3,12 @@
 - name: Welcome
   link: "welcome"
   es: "Bienvenidos"
+- name: Speakers
+  link: "keynotes"
+  es: "keynotes"
+- name: Training
+  link: "training"
+  es: "Entrenamientos"
 - name: Register
   link: "register"
   es: "Registro"
@@ -19,10 +25,6 @@
 #  link: "video"
 # - name: Schedule
 #   link: schedule
-# - name: Speakers
-#   link: "keynotes"
-# - name: Trainers
-#   link: "trainers"
 # - name: Training
 #   link: "training"
 - name: Volunteer
