@@ -1,0 +1,96 @@
+<script>
+    function write_dates(start, end) {       	
+        s = new Date(start)
+        out = ""
+        out += s.getFullYear() + "-" + (s.getMonth() + 1).toString().padStart(2, "0") + "-" + s.getDate().toString().padStart(2, "0")
+        out += " " + s.getHours().toString().padStart(2, "0") + ':' + s.getMinutes().toString().padStart(2, "0")
+        out += "-"
+        e = new Date(end)
+        out += e.getHours().toString().padStart(2, "0") + ':' + e.getMinutes().toString().padStart(2, "0") + " " + "(" + Intl.DateTimeFormat().resolvedOptions().timeZone + ")"
+        document.write(out)
+    }
+</script>
+<div class="section training" id="training">
+    <h2 class="title">ENTRENAMIENTOS</h2>
+
+    <br>
+    <hr />
+
+	<div class="items-container" style="margin-top:-2em">
+    {% for bitem in site.data.training-list.trainings %}
+
+	    {% assign btraining = site.trainings | where_exp: "training", "bitem.training == training.path" | first  %}
+
+    	{% if btraining != null %}
+
+		    {% for btrainer_path in btraining.trainers %}
+			    {% assign bparticipant = site.participants | where_exp: "x", "btrainer_path == x.path" | first  %}
+
+				{% if bparticipant.pic_url != null %}
+
+<!--
+				<img src="{{ bparticipant.pic_url | relaive_url }}" style="width:80px; border-radius:100px">
+				<div>{{ bparticipant.name }}</div>
+-->
+                <div class="item" style="width:5em">
+                    <div class="item-head-link">
+                        <div class="img" style="background-image: url('{{ bparticipant.pic_url | relative_url }}'); height:3em; width:3em">
+                            <i class="fa fa-plus-circle"></i>
+                        </div>
+                        <h4 class="item-name" style="text-align:center; font-size:.7em">
+                            {{ bparticipant.name}}
+                        </h4>
+                    </div>
+                </div>
+
+				{% endif %}
+		    {% endfor %}
+
+	    {% endif %}
+    {% endfor %}
+	</div>
+
+    
+    <div class="table-container">
+        {% for item in site.data.training-list.trainings %}
+
+        {% assign training = site.trainings | where_exp: "training", "item.training == training.path" | first  %}
+
+        {% if training != null %}
+        <div class="table-item">
+            <div class="item-col item-hours" onload="this.innerText = 'foo'">
+
+                {% assign start = item.start | date: '%Y-%m-%dT%H:%M:%SZ'%}
+                {% assign end = item.end | date: '%Y-%m-%dT%H:%M:%SZ'%}
+                {% if item.date-announced == True %}
+
+	                <script>
+	                    write_dates("{{start}}", "{{end}}", "{{announced}}")
+	                </script>
+    	            <noscript> {{start}} - {{end}} </noscript>
+                {% else %}
+					<b>Por anunciar</b>
+                {% endif %}
+            </div>
+
+            <div class="item-col item-training">
+                <a href="{{training.url | relative_url }}">
+                    <p class="item-title">{{training.name }}
+                    </p>
+                </a>
+                {% for trainer_path in training.trainers %}
+                {% assign participant = site.participants | where_exp: "x", "trainer_path == x.path" | first  %}
+
+
+                <a href="{{ participant.url | relative_url }}">
+                    <p class="item-trainer">Entrenador:
+                        {{ participant.name}}</p>
+                </a>
+                {% endfor %}
+            </div>
+
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
