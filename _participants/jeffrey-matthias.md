@@ -1,6 +1,6 @@
 ---
 name: Jeffrey Matthias
-pic_url: "/assets/images/jeffrey-matthias.jpg"
+pic_url: "/assets/images/participants/jeffrey_matias.jpg"
 tagline: Principal Engineer @ Community.com
 github: idlehands
 twitter: idlehands
