@@ -33,14 +33,14 @@
 				<div>{{ bparticipant.name }}</div>
 -->
                 <div class="item" style="width:5em">
-                    <div class="item-head-link">
+                    <a class="item-head-link" href="{{ bparticipant.url | relative_url }}">
                         <div class="img" style="background-image: url('{{ bparticipant.pic_url | relative_url }}'); height:3em; width:3em">
                             <i class="fa fa-plus-circle"></i>
                         </div>
                         <h4 class="item-name" style="text-align:center; font-size:.7em">
                             {{ bparticipant.name}}
                         </h4>
-                    </div>
+                    </a>
                 </div>
 
 				{% endif %}
