@@ -12,9 +12,9 @@
 - name: Register
   link: "register"
   es: "Registro"
-- name: Call for Talks
-  link: "cft"
-  es: "Participa"
+#- name: Call for Talks
+#  link: "cft"
+#  es: "Participa"
 # name: Newsletter
 #  link: "newsletter"
 #- name: Call for Tutorials
