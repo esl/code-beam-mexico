@@ -511,11 +511,14 @@
     function write_dates(start, end) {       	
         s = new Date(start)
         out = ""
-        out += s.getFullYear() + "-" + (s.getMonth() + 1).toString().padStart(2, "0") + "-" + s.getDate().toString().padStart(2, "0")
-        out += " " + s.getHours().toString().padStart(2, "0") + ':' + s.getMinutes().toString().padStart(2, "0")
-        out += "-"
+        out += s.getFullYear() + "/" + (s.getMonth() + 1).toString().padStart(2, "0") + "/" + s.getDate().toString().padStart(2, "0")
+        out += "<br>"
+        out += s.getHours().toString().padStart(2, "0") + ':' + s.getMinutes().toString().padStart(2, "0")
+        out += " - "
         e = new Date(end)
-        out += e.getHours().toString().padStart(2, "0") + ':' + e.getMinutes().toString().padStart(2, "0") + " " + "(" + Intl.DateTimeFormat().resolvedOptions().timeZone + ")"
+        out += e.getHours().toString().padStart(2, "0") + ':' + e.getMinutes().toString().padStart(2, "0")
+        out += "<br>"
+        out += "(" + Intl.DateTimeFormat().resolvedOptions().timeZone + ")"
         document.write(out)
     }
 </script>
@@ -602,7 +605,10 @@
                 
                 
                 
-					<b>TBA</b>
+	                <script>
+	                    write_dates("2023-03-03T15:00:00Z", "2023-03-04T00:00:00Z", "")
+	                </script>
+    	            <noscript> 2023-03-03T15:00:00Z - 2023-03-04T00:00:00Z </noscript>
                 
             </div>
 
@@ -635,7 +641,10 @@
                 
                 
                 
-					<b>TBA</b>
+	                <script>
+	                    write_dates("2023-03-03T15:00:00Z", "2023-03-04T00:00:00Z", "")
+	                </script>
+    	            <noscript> 2023-03-03T15:00:00Z - 2023-03-04T00:00:00Z </noscript>
                 
             </div>
 
