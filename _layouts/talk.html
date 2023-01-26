@@ -34,12 +34,27 @@
                         </div>
                     </div>
                     <div class="training-info">
-                        <p><strong>Audience:</strong><br> {{ page.audience | join: ","}}</p>
+                        <p><strong>Audience:</strong><br> {{ page.audience | join: ", "}}</p>
                     </div>
-                    {% assign size = page.tags | size %}
-                    {% if size > 0 %}
+
+                    {% assign dursize = page.duration | size %}
+                    {% if dursize > 0 %}
                     <div class="training-info">
-                        <p><strong>Tags:</strong><br> {{ page.tags | join: ","}}</p>
+                        <p><strong>Duration:</strong><br> {{ page.duration }}</p>
+                    </div>
+                    {% endif %}
+
+                    {% assign langsize = page.language | size %}
+                    {% if langsize > 0 %}
+                    <div class="training-info">
+                        <p><strong>Language:</strong><br> {{ page.language}}</p>
+                    </div>
+                    {% endif %}
+
+                    {% assign tagssize = page.tags | size %}
+                    {% if tagssize > 0 %}
+                    <div class="training-info">
+                        <p><strong>Tags:</strong><br> {{ page.tags | join: ", "}}</p>
                     </div>
                     {% endif %}
                 </div>
