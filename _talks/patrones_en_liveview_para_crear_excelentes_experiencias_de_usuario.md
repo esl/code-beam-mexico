@@ -12,6 +12,7 @@ title: Patrones en LiveVew para crear excelentes experiencias de usuario
 speakers:
 - _participants/berenice_medel.md
 published: true
+datetime: March 4th
 
 ---
 

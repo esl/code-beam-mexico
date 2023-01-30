@@ -11,6 +11,7 @@ title: Using Liveview to eliminate constraints on your team
 speakers:
 - _participants/todd_resudek.md
 published: true
+datetime: March 4th
 
 ---
 

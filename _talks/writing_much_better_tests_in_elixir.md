@@ -11,6 +11,7 @@ title: Writing much better tests in Elixir
 speakers:
 - _participants/xochitl_perez.md
 published: true
+datetime: March 4th
 
 ---
 

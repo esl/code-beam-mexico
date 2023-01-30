@@ -12,6 +12,7 @@ title: Integrating Industrial Communication Protocols with Elixir and Nerves
 speakers:
 - _participants/aldebaran_alonso.md
 published: true
+datetime: March 4th
 
 ---
 

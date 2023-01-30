@@ -10,6 +10,7 @@ title: Exploring Elixir Codebases with Archeometer
 speakers:
 - _participants/agustin_ramos.md
 published: true
+datetime: March 4th
 
 ---
 

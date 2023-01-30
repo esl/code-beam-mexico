@@ -1,5 +1,6 @@
 ---
-audience:
+datetime: March 4th 
+audience: All
 tags:
 title: Distributed Elixir made easy
 speakers:

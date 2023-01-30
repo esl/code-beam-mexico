@@ -10,6 +10,7 @@ title: A Nerves history from a non-embedded developers team, building a world-cl
 speakers:
 - _participants/alfonso_gonzalez.md
 published: true
+datetime: March 4th
 
 ---
 
