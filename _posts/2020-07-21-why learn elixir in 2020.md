@@ -4,6 +4,7 @@ author: Erlang Solutions
 title: Why You Should Learn Elixir In 2020
 pic_url: "/assets/images/why-elixir.jpeg"
 tags: elixir
+published: false
 
 ---
 ![](/assets/images/why-elixir.jpeg)

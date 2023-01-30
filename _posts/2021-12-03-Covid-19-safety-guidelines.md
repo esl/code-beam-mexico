@@ -4,7 +4,7 @@ author: ElixirConf EU
 title: Covid-19 safety guidelines
 pic_url: "/assets/images/safety.jpg"
 tags: covid-19, safety, guidelines, rules
-
+published: false
 ---
 Your safety and the safety of others is of the utmost importance to us as organisers and the ILEC Conference Centre.
 

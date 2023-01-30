@@ -4,6 +4,7 @@ author: Code Sync Team
 title: Hybrid conference - what to expect? + Frequently Asked Questions
 pic_url: "/assets/images/hybrid-conference.jpg"
 tags: hybrid, virtual, covid-19
+published: false
 
 ---
 November is coming close and though the pandemic situation is not yet fully contained, we’re optimistic to meet with you in Mountain View and we will make sure not only to deliver a great experience, but also that it’s delivered in a safe environment. However, we’re also keeping in mind that by then not everyone will be able to travel, therefore, we’ve decided to make Code BEAM America a hybrid event, combining both an in-person and virtual conference.

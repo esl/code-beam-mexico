@@ -4,6 +4,7 @@ pic_url: "/assets/images/liveview-blog.jpg"
 author: ElixirConf EU
 tags: liveview, phoenix
 date: 20.02.2022
+published: false
 
 ---
 # Want to Know More About LiveView?

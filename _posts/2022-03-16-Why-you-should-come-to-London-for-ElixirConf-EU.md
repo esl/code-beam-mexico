@@ -3,6 +3,7 @@ layout: post
 tags: traveling, accommodation, things-to-do
 pic_url: "/assets/images/travel-blog.jpg"
 author: Erlang Solutions
+published: false
 
 ---
 # Why you should come to London for ElixirConf EU
