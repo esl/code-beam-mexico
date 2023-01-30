@@ -11,6 +11,9 @@ include: [archives]
 
 exclude:
 - docs/
+- archives/
+- legacy-content/
+- bin/
 
 plugins:
   - jekyll-sitemap
