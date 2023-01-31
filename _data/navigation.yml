@@ -5,7 +5,7 @@
   es: "Bienvenidos"
 - name: Speakers
   link: "keynotes"
-  es: "keynotes"
+  es: "Keynotes"
 - name: Training
   link: "training"
   es: "Entrenamientos"
@@ -27,9 +27,9 @@
 #   link: schedule
 # - name: Training
 #   link: "training"
-- name: Volunteer
-  link: "volunteer"
-  es: "Voluntarios"
+# - name: Volunteer
+  # link: "volunteer"
+  # es: "Voluntarios"
 - name: Students
   link: "students"
   es: "Estudiantes"
@@ -57,6 +57,6 @@
 #  link: "blog"
 # - name: Sponsors
 #   link: "sponsors"
-- name: Contact
-  link: "contact"
-  es: "Contacto"
+# - name: Contact
+  # link: "contact"
+  # es: "Contacto"
