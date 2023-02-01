@@ -1,4 +1,4 @@
-<div class="section venue" id="venue" style="background-image: url('{{site.baseurl}}/assets/images/venue-background-CHM.jpg');">
+<div class="section venue" id="venue" style="background-image: url('{{site.baseurl}}/assets/images/venue-background-CHM.jpg'); background-repeat: round;">
     <div class="row">
         <div class="left-content left">
             <h2 class="title">VENUES</h2>
@@ -13,11 +13,13 @@
 
                 <h2 class="venue-text">
                   <strong><a href="https://www.ingenieria.unam.mx/" style="color: #e32dfd" target="_blank">🌐</a></strong>
+                  <strong><a href="https://goo.gl/maps/MMrB3UspuRUNBERh9" style="color: #e32dfd" target="_blank">📍️</a></strong>
                 </h2>
         </div>
         <div class="right-content">
             <br/>
-            {% include map.html %}
+            {% comment %}{% include map.html %}{% endcomment %}
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2052.8125127396142!2d-99.18566725805387!3d19.33124400187066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce00015be0a713%3A0x3fc11681a8244370!2sFaculty%20of%20Engineering%2C%20UNAM!5e0!3m2!1sen!2sus!4v1675206667798!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 
@@ -25,46 +27,22 @@
 
     <div class="row">
         <div class="left-content left">
-            <!-- <h2 class="title">VENUE</h2> -->
-            <!-- <hr/> -->
             <p class="venue-subtitle">Italian Cultural Institute</p>
             <p><a href="#keynotes">Keynotes & Talks, 4th of March</a></p>
 
             <p class="venue-text">
-               Av. Francisco Sosa 77, Del Carmen<br>
+               Francisco Sosa Av. 77, Del Carmen<br>
                 Coyoacán, CDMX<br>
                 </p>
 
                 <h2 class="venue-text">
                   <strong><a href="https://iicmessico.esteri.it/iic_messico/it/" style="color: #e32dfd" target="_blank">🌐</a></strong>
-                  <strong><a href="https://goo.gl/maps/yvWBRzBbS1Qcbcyv6" style="color: #e32dfd" target="_blank">📍️<a></strong>
+                  <strong><a href="https://goo.gl/maps/yvWBRzBbS1Qcbcyv6" style="color: #e32dfd" target="_blank">📍️</a></strong>
                 </h2>
         </div>
         <div class="right-content">
             <br/>
-            <div id="map"></div>
-            <script>
-            function initMap() {
-              // The location of Uluru
-              const uluru = { lat: 19.3314918, lng: -99.1849444 };
-              // The map, centered at Uluru
-              const map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 7,
-                center: uluru,
-              });
-              // The marker, positioned at Uluru
-              const marker = new google.maps.Marker({
-                position: uluru,
-                map: map,
-              });
-            }
-            
-            window.initMap = initMap;
-            </script>
-            <script 
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBf-F7nBzxi_73uI9QUxRQ-cNihYtlZ_AA&callback=initMap&v=weekly"
-            defer></script>
-            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.399362685451!2d-99.16804198717658!3d19.34950835401746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffc2b49c9903%3A0x8fd5b88a11687cc3!2sItalian%20Cultural%20Institute!5e0!3m2!1sen!2sus!4v1675206534051!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 

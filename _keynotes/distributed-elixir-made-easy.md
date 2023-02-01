@@ -5,6 +5,7 @@ tags:
 title: Distributed Elixir made easy
 speakers:
 - _participants/johanna-larsson.md
+venue: <a href="/#venue">Italian Cultural Institute</a>
 
 ---
 Unsure if Elixir distribution is for you? Not sold on the benefits? 

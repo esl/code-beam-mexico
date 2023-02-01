@@ -11,6 +11,7 @@ speakers:
 - _participants/alfonso_gonzalez.md
 published: true
 datetime: March 4th
+venue: <a href="/#venue">Italian Cultural Institute</a>
 
 ---
 

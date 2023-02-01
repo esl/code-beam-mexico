@@ -6,13 +6,12 @@ language:
 - Spanish
 duration:
 - 40 minutes
-tags:
-- Elixir
 title: Patrones en LiveVew para crear excelentes experiencias de usuario
 speakers:
 - _participants/berenice_medel.md
 published: true
 datetime: March 4th
+venue: <a href="/#venue">Italian Cultural Institute</a>
 
 ---
 

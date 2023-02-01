@@ -12,6 +12,7 @@ speakers:
 - _participants/xochitl_perez.md
 published: true
 datetime: March 4th
+venue: <a href="/#venue">Italian Cultural Institute</a>
 
 ---
 

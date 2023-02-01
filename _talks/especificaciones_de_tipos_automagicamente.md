@@ -12,6 +12,7 @@ speakers:
 - _participants/morgan_mackenzie.md
 published: true
 datetime: March 4th
+venue: <a href="/#venue">Italian Cultural Institute</a>
 
 ---
 El código heredado puede ser frágil. Ayudaría mucho estar segura de cuáles tipos de datos son los que reciben y devuelven tus funciones. Pero… ¿Y si en el pasado no incluiste especificaciones de tipos, lo cual te hace la vida más dura ahora?

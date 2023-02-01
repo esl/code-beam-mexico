@@ -50,6 +50,15 @@
                     </div>
                     {% endif %}
 
+                    {% assign hasvenue = page.venue | size %}
+                    {% if hasvenue > 0 %}
+                    <div class="training-info">
+                        <p><strong>Venue</strong><br> {{ page.venue }}</p>
+                    </div>
+                    {% endif %}
+
+
+
                     {% assign dursize = page.duration | size %}
                     {% if dursize > 0 %}
                     <div class="training-info">

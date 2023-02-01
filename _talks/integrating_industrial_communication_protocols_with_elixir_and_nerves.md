@@ -13,6 +13,7 @@ speakers:
 - _participants/aldebaran_alonso.md
 published: true
 datetime: March 4th
+venue: <a href="/#venue">Italian Cultural Institute</a>
 
 ---
 

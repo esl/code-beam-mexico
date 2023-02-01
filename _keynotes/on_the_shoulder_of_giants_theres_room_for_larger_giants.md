@@ -7,6 +7,7 @@ speakers:
 - _participants/andrea-leopardi.md
 duration: 45 minutes
 datetime: March 4th
+venue: <a href="/#venue">Italian Cultural Institute</a>
 
 ---
 In the past few years, it seems like Erlang semantics paired with Elixir developer experience are spreading to domain after domain, from real-time web apps to UIs, from embedded systems to machine learning. 
