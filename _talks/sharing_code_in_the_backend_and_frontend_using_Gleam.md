@@ -10,7 +10,7 @@ speakers:
 - _participants/ian_gonzalez.md
 published: true
 datetime: March 3th
-venue: <a href="/#">Virtual talks</a>
+venue: Virtual talk via <a href="https://twitter.com/CodeBEAMLiteMX" target=_blank>@CodeBEAMLiteMX Twitter live</a>
 
 ---
 

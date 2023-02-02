@@ -1,5 +1,5 @@
 ---
-pic_url: "/assets/images/participants/ian_gonzalez.jpg"
+pic_url: "/assets/images/participants/ian_gonzalez.jpeg"
 name: Ian Gonzalez
 tagline: Senior Software Engineer at Pulley
 github:  Ian-GL
