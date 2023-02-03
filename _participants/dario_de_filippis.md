@@ -9,4 +9,3 @@ twitter: dariodf
 
 A software developer who really likes Elixir. Also works as a clarinetist sometimes. Dabbles in guitar and cyber-security. Prefers to move around on a bicycle.
 
-Cyber-Security enthusiast. Clarinetist.
