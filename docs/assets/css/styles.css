@@ -480,6 +480,10 @@ a { font-family: 'Montserrat', sans-serif; font-size: 100%; font-weight: normal;
 
 .contact hr { background: linear-gradient(to right, #15e6ff 50%, #4eb913 50%); }
 
+.venue { background-image: url("/assets/images/venue-iic2.jpg"); background-size: cover; background-repeat: unset; }
+
+@media only screen and (max-width: 1112px) { .venue { background-repeat: unset; } }
+
 .venue .row { align-items: flex-start; display: flex; width: 100%; }
 
 .venue .row .left { align-items: flex-start; text-align: left; }
