@@ -1,8 +1,47 @@
 <div class="section schedule" id="schedule">
     <h2 class="title">SCHEDULE</h2>
-    <div>
-      <script type="text/javascript" src="https://sessionize.com/api/v2/2ftr9l2o/view/GridSmart">
+    <hr />
+    <span></span>
+    <div id="schedule-table">
+      <!-- <script type="text/javascript" src="https://sessionize.com/api/v2/2ftr9l2o/view/GridSmart"> -->
+      <!-- </script> -->
+      <div class="tab">
+        <button class="tablinks active" onclick="showDay(event, '3march')">Friday, March 3th</button>
+        <button class="tablinks" onclick="showDay(event, '4march')">Saturday, March 4th</button>
+      </div>
+      
+      <div id="3march" class="tabcontent" style="display: block">
+        <p>Virtual talks</p>
+        <!-- <p>Friday, March 3th</p> -->
+        <p><a href="#venue">At Twitter live @CodeBEAMLiteMX</a></p>
+        <br />
+        {% include schedule-table.html data=site.data.schedule-day1 %}
+      </div>
+
+      <div id="4march" class="tabcontent">
+        <p>In-Person talks</p>
+        <!-- <p>Saturday, March 4th</p> -->
+        <p><a href="#venue">At Italian Cultural Institute </a></p>
+        <br />
+        {% include schedule-table.html data=site.data.schedule-day2 %}
+      </div>
+      
+      <script>
+      function showDay(evt, dayName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(dayName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
       </script>
+      
     </div>
     </hr>
  </div>

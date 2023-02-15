@@ -1,0 +1,18 @@
+Time CST,Duration,Talk/Activity,Speaker
+8:00 AM,50 min,Registration,
+8:50 AM,10 min,Opening,Norberto Ortigoza
+9:00 AM,60 min,Keynote: Distributed Elixir made easy.,Johanna Larsson
+10:00 AM,10 min,Coffe Break,
+10:10 AM,40 min,Using LiveView to eliminate constraints on your team,Todd Resudek
+11:00 AM,25 min,Especificaciones de tipos automágicamente,Mackenzie Morgan
+11:30 AM,10 min,Coffe Break,
+11:40 AM,40 min,A Nerves history from a non embedded developers team building a world class IoT AI product,Alfonso González
+12:30 PM,40 min,Patrones en LiveView para crear excelentes experiencias de usuario,Berenice Medel
+1:20 PM,90 min,Lunch Break,
+2:50 PM,40 min,Integrating Industrial Communication Protocols with Elixir and Nerves, Aldebaran Alonso
+3:40 PM,25 min,Writing much better tests in Elixir,Xochitl Pérez
+4:10 PM,40 min,Exploring Elixir Codebases with Archeometer,Agustín Ramos
+5:00 PM,10 min,Coffe Break,
+5:10 PM,60 min,Keynote: On the shoulder of giants there’s room for larger giants,Francesco Cesarini<br> and Andrea Leopardi
+6:10 PM,10 min,Event's closure,Norberto Ortigoza
+6:20 PM,90 min,Toasting Ceremony - Celebrating 10 years of Elixir. At the Garden

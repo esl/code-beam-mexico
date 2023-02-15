@@ -12,6 +12,9 @@
 - name: Register
   link: "register"
   es: "Registro"
+- name: Schedule
+  link: "schedule"
+  es: "Agenda"
 #- name: Call for Talks
 #  link: "cft"
 #  es: "Participa"
@@ -36,9 +39,9 @@
 - name: Committee
   link: "members"
   es: "Comité"
-- name: Venue
+- name: Venues
   link: "venue"
-  es: "Sede"
+  es: "Sedes"
 - name: Diversity
   link: "diversity"
   es: "Diversidad"

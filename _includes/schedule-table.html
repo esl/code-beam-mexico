@@ -1,0 +1,30 @@
+{% assign data = include.data %}
+
+<table>
+    {% for row in data %}
+      {% if forloop.first %}
+      <tr>
+        {% for pair in row %}
+          <th>{{ pair[0] }}</th>
+        {% endfor %}
+      </tr>
+      {% endif %}
+  
+      <tr>
+        {% for pair in row %}
+          {% assign row = pair[1] %}
+          <td
+          {% if row["Talk/Activity"] contains "Break" %}
+            class="schedule-break"
+          {% endif %}
+          {% if row["Talk/Activity"] contains "Opening" or row["Talk/Activity"] contains "closure" %}
+            class="schedule-highlight1"
+          {% endif %}
+          {% if row["Talk/Activity"] contains "Keynote"  %}
+            class="schedule-highlight2"
+          {% endif %}
+          >{{ pair[1] }}</td>
+        {% endfor %}
+        </tr>
+    {% endfor %}
+  </table>
