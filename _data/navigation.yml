@@ -3,6 +3,9 @@
 - name: Welcome
   link: "welcome"
   es: "Bienvenidos"
+- name: Schedule
+  link: "schedule"
+  es: "Agenda"
 - name: Speakers
   link: "keynotes"
   es: "Keynotes"
@@ -12,9 +15,6 @@
 - name: Register
   link: "register"
   es: "Registro"
-- name: Schedule
-  link: "schedule"
-  es: "Agenda"
 #- name: Call for Talks
 #  link: "cft"
 #  es: "Participa"
