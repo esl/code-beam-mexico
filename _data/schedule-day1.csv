@@ -1,0 +1,10 @@
+Time CST,Duration,Talk/Activity,Virtual Speaker
+10:00 AM,5 min,Opening,Norberto Ortigoza
+10:05 AM,40 min,Sharing code in the backend and frontend using Gleam,Ian González
+10:55 AM,5 min,Break,
+11:00 AM,25 min,Convenience store data processing and ETL - on the ground and in the cloud,Saul Rojas
+11:35 AM,10 min,Break,
+11:45 AM,40 min,Observabilidad en aplicaciones Elixir de gran escala,Misael Pérez
+12:35 PM,5 min,Break,
+12:40 PM,25 min,Evolving legacy architectures to enable real-time communication with Elixir microservices,Dario de Filippis
+1:15 PM,5 min,Day's closure,Norberto Ortigoza
