@@ -190,14 +190,6 @@
             </li>
         
             <li>
-                <a class="page-scroll" href="#training">
-                    
-                        Entrenamientos
-                    
-                </a>
-            </li>
-        
-            <li>
                 <a class="page-scroll" href="#register">
                     
                         Registro
@@ -292,13 +284,13 @@
       CODE BEAM LITE MEXICO 2023 <br /> CELEBRANDO 10 AÑOS DE ELIXIR<br />
        <!-- In-person Event<br /> -->
       <span style="color: #fff; font-size: 22px">Ciudad de México, 3 y 4 de Marzo 2023</span><br />
-      <span style="color: #fff; font-size: 18px">Evento presencial</span>
+      <span style="color: #fff; font-size: 18px">Evento presencial y virtual</span>
     </h4>
     <span class="text-content mb-1">
       <ul>
         <li>2 días</li>
-        <li>Conferencias</li>
-        <li>Entrenamientos para principiantes y expertos</li>
+        <li>Conferencias presenciales y virtuales</li>
+        <!-- <li>Entrenamientos para principiantes y expertos</li> -->
       </ul>
     </span>
     <p> APRENDE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -306,7 +298,8 @@
         INSPIRA
     </p>
     <p>
-      <a href="#register">Registro</a> 
+      <a class="page-scroll btn-outline btn-green-dark ml-1" href="#register" target="_blank">REGISTRO</a>
+      <!-- <a href="#register">Registro</a>  -->
       <!-- |  -->
       <!-- <a href="#cft">Call for speakers</a> | -->
       <!-- <a href="#sponsorship">Patrocina el evento</a> -->
@@ -371,7 +364,7 @@
               <p>La comunidad de desarrolladores de Elixir y Erlang celebramos 10 años de la creación de Elixir. 
                 <br>La ciudad de México será el punto de encuentro de empresas y personas interesadas en el uso y desarrollo de aplicaciones críticas de alto desempeño tolerantes a fallos y escalables a millones de usuarios, aplicadas en áreas como: Fintech, eCommerce,  IoT,  Gaming, Blockchain, Seguridad, Machine Learning entre otras.
                 <br><br>
-                Compartiremos experiencias y conocimiento en dos días de conferencias y entrenamientos.
+                Compartiremos experiencias y conocimiento en dos días de conferencias.
                 <br><br>
                 <!-- Share <br>
                 Code BEAM is an event where leading developers in Erlang, Elixir and other BEAM based technologies like RabbitMQ share their use cases and success stories to allow us to grow together.
@@ -4219,170 +4212,7 @@
 </div>
 
 
-<script>
-    function write_dates(start, end) {       	
-        s = new Date(start)
-        out = ""
-        out += s.getFullYear() + "/" + (s.getMonth() + 1).toString().padStart(2, "0") + "/" + s.getDate().toString().padStart(2, "0")
-        out += "<br>"
-        out += s.getHours().toString().padStart(2, "0") + ':' + s.getMinutes().toString().padStart(2, "0")
-        out += " - "
-        e = new Date(end)
-        out += e.getHours().toString().padStart(2, "0") + ':' + e.getMinutes().toString().padStart(2, "0")
-        out += "<br>"
-        out += "(" + Intl.DateTimeFormat().resolvedOptions().timeZone + ")"
-        document.write(out)
-    }
-</script>
-<div class="section training" id="training">
-    <h2 class="title">TRAINING</h2>
-
-    <br>
-    <hr />
-
-	<div class="items-container" style="margin-top:-2em">
-    
-
-	    
-
-    	
-
-		    
-			    
-
-				
-
-<!--
-				<img src="/assets/images/members/norberto-ortigoza.jpg" style="width:80px; border-radius:100px">
-				<div>Norberto Ortigoza</div>
--->
-                <div class="item" style="width:5em">
-                    <a class="item-head-link" href="/participants/norberto-ortigoza/">
-                        <div class="img" style="background-image: url('/assets/images/members/norberto-ortigoza.jpg'); height:4em; width:4em">
-                            <i class="fa fa-plus-circle"></i>
-                        </div>
-                        <h4 class="item-name" style="text-align:center; font-size:.8em">
-                            Norberto Ortigoza
-                        </h4>
-                    </a>
-                </div>
-				
-		    
-
-	    
-    
-
-	    
-
-    	
-
-		    
-			    
-
-				
-
-<!--
-				<img src="/assets/images/participants/jeffrey_matias.jpg" style="width:80px; border-radius:100px">
-				<div>Jeffrey Matthias</div>
--->
-                <div class="item" style="width:5em">
-                    <a class="item-head-link" href="/participants/jeffrey-matthias/">
-                        <div class="img" style="background-image: url('/assets/images/participants/jeffrey_matias.jpg'); height:4em; width:4em">
-                            <i class="fa fa-plus-circle"></i>
-                        </div>
-                        <h4 class="item-name" style="text-align:center; font-size:.8em">
-                            Jeffrey Matthias
-                        </h4>
-                    </a>
-                </div>
-				
-		    
-
-	    
-    
-	</div>
-
-    <br />
-    <p style="width:100%; text-align:center; height:3em;">All trainings will be held at <a href="#venue">UNAM's CodeSpaces</a></p>
-    <br />
-    
-    <div class="table-container">
-        
-
-        
-
-        
-        <div class="table-item">
-            <div class="item-col item-hours" onload="this.innerText = 'foo'">
-
-                
-                
-                
-	                <script>
-	                    write_dates("2023-03-03T15:00:00Z", "2023-03-04T00:00:00Z", "")
-	                </script>
-    	            <noscript> 2023-03-03T15:00:00Z - 2023-03-04T00:00:00Z </noscript>
-                
-            </div>
-
-            <div class="item-col item-training">
-                <a href="/trainings/introduccion-elixir/">
-                    <p class="item-title">Introducción a Elixir
-                    </p>
-                </a>
-                
-                
-
-
-                <a href="/participants/norberto-ortigoza/">
-                    <p class="item-trainer">Trainer:
-                        Norberto Ortigoza</p>
-                </a>
-                
-            </div>
-
-        </div>
-        
-        
-
-        
-
-        
-        <div class="table-item">
-            <div class="item-col item-hours" onload="this.innerText = 'foo'">
-
-                
-                
-                
-	                <script>
-	                    write_dates("2023-03-03T15:00:00Z", "2023-03-04T00:00:00Z", "")
-	                </script>
-    	            <noscript> 2023-03-03T15:00:00Z - 2023-03-04T00:00:00Z </noscript>
-                
-            </div>
-
-            <div class="item-col item-training">
-                <a href="/trainings/testing-server-side-jeffrey/">
-                    <p class="item-title">Testing server-side Elixir - Tools, Tips and Tricks
-                    </p>
-                </a>
-                
-                
-
-
-                <a href="/participants/jeffrey-matthias/">
-                    <p class="item-trainer">Trainer:
-                        Jeffrey Matthias</p>
-                </a>
-                
-            </div>
-
-        </div>
-        
-        
-    </div>
-</div>
-
+ 
 
 <!-- end of welcome -->
 
@@ -4601,30 +4431,8 @@
 
 <!-- end of members  -->
 <div class="section venue" id="venue">
-    <div class="row">
-        <div class="left-content left">
-            <h2 class="title">SEDES</h2>
-            <hr/>
-            <p class="venue-subtitle">Code spaces</p>
-            <p><a href="#training">Entrenamientos, 3 de Marzo</a></p>
-            <p class="venue-text">Facultad de Ingeniería, UNAM<br>
-                Av. Universidad 3000, C.U.<br>
-                Coyoacán, CDMX<br>
-                </p>
-
-                <h2 class="venue-text">
-                  <strong><a href="https://www.ingenieria.unam.mx/" style="color: #e32dfd" target="_blank">🌐</a></strong>
-                  <strong><a href="https://goo.gl/maps/MMrB3UspuRUNBERh9" style="color: #e32dfd" target="_blank">📍️</a></strong>
-                </h2>
-        </div>
-        <div class="right-content">
-            <br/>
-            
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2052.8125127396142!2d-99.18566725805387!3d19.33124400187066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce00015be0a713%3A0x3fc11681a8244370!2sFaculty%20of%20Engineering%2C%20UNAM!5e0!3m2!1sen!2sus!4v1675206667798!5m2!1sen!2sus" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="gmap_canvas"></iframe>
-        </div>
-    </div>
-
-<br><br>
+    <h2 class="title">SEDES</h2>
+    <hr/>
 
     <div class="row">
         <div class="left-content left">
@@ -4652,7 +4460,7 @@
             <p class="venue-subtitle">Online</p>
             <p><a href="#virtual-speakers">Virtual talks, 3 de Marzo</a></p>
             <h2 class="venue-text">
-                via <a href="https://twitter.com/CodeBEAMLiteMX" target=_blank>🌐 @CodeBEAMLiteMX Twitter live</a>
+                <a href="https://twitter.com/CodeBEAMLiteMX" target=_blank>🌐 via @CodeBEAMLiteMX Twitter live</a>
             </h2>
         </div>
         <div class="right-content">
@@ -4660,6 +4468,26 @@
         </div>
     </div>
 
+    <div class="row">
+        <div class="left-content left">
+            <p class="venue-subtitle">Code spaces</p>
+            <!-- <p><a href="#training">Entrenamientos, 3 de Marzo</a></p> -->
+            <p class="venue-text">Facultad de Ingeniería, UNAM<br>
+                Av. Universidad 3000, C.U.<br>
+                Coyoacán, CDMX<br>
+                </p>
+
+                <h2 class="venue-text">
+                  <strong><a href="https://www.ingenieria.unam.mx/" style="color: #e32dfd" target="_blank">🌐</a></strong>
+                  <strong><a href="https://goo.gl/maps/MMrB3UspuRUNBERh9" style="color: #e32dfd" target="_blank">📍️</a></strong>
+                </h2>
+        </div>
+        <div class="right-content">
+            <br/>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2052.8125127396142!2d-99.18566725805387!3d19.33124400187066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce00015be0a713%3A0x3fc11681a8244370!2sFaculty%20of%20Engineering%2C%20UNAM!5e0!3m2!1sen!2sus!4v1675206667798!5m2!1sen!2sus" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="gmap_canvas"></iframe>
+        </div>
+    </div>
 
     <div class="row">
         <div class="left-content left">
