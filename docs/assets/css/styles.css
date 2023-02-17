@@ -330,13 +330,24 @@ a {
   color: #543465;
 }
 
+.btn-green-dark {
+  border: none;
+  outline: none;
+  color: #ccc;
+}
+.btn-green-dark:hover {
+  background-color: rgba(44, 72, 49, 0.6);
+  outline: 2px solid #ccc;
+  color: #4eb913;
+}
+
 .btn-blue:hover {
   background-color: #ffffff;
   color: #2f5677;
 }
 
 .btn-orange {
-  border: solid 0.1em #e22bfc;
+  outline: solid 0.1em #e22bfc;
   color: #e22bfc;
 }
 .btn-orange:hover {
