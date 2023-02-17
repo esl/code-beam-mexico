@@ -571,7 +571,7 @@ a {
   margin: 0 1em 1em 1em;
 }
 .items-container .item .item-training:hover {
-  color: #372140;
+  color: #399227;
 }
 .items-container .item:hover {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
@@ -580,12 +580,10 @@ a {
   align-items: center;
   display: flex;
   justify-content: center;
-  background-image: none !important;
-  background-color: #14c2c9;
   transition: box-shadow 150ms linear;
 }
 .items-container .item:hover .img i {
-  color: #ffffff;
+  color: #64e949;
   display: block;
   font-size: 2.8em;
 }
