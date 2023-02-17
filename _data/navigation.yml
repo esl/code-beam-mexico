@@ -9,9 +9,9 @@
 - name: Speakers
   link: "keynotes"
   es: "Keynotes"
-- name: Training
-  link: "training"
-  es: "Entrenamientos"
+# - name: Training
+#   link: "training"
+#   es: "Entrenamientos"
 - name: Register
   link: "register"
   es: "Registro"
