@@ -12,9 +12,9 @@
 # - name: Training
 #   link: "training"
 #   es: "Entrenamientos"
-- name: Register
-  link: "register"
-  es: "Registro"
+# - name: Register
+#   link: "register"
+#   es: "Registro"
 #- name: Call for Talks
 #  link: "cft"
 #  es: "Participa"
@@ -33,18 +33,18 @@
 # - name: Volunteer
   # link: "volunteer"
   # es: "Voluntarios"
-- name: Students
-  link: "students"
-  es: "Estudiantes"
+# - name: Students
+#   link: "students"
+#   es: "Estudiantes"
 - name: Committee
   link: "members"
   es: "Comité"
 - name: Venues
   link: "venue"
   es: "Sedes"
-- name: Diversity
-  link: "diversity"
-  es: "Diversidad"
+# - name: Diversity
+#   link: "diversity"
+#   es: "Diversidad"
 - name: Sponsors
   link: "sponsors"
   es: "Patrocinadores"
