@@ -12,9 +12,9 @@
 # - name: Training
 #   link: "training"
 #   es: "Entrenamientos"
-# - name: Register
-#   link: "register"
-#   es: "Registro"
+- name: Register
+  link: "register"
+  es: "Registro"
 #- name: Call for Talks
 #  link: "cft"
 #  es: "Participa"

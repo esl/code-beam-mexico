@@ -10,6 +10,13 @@ if [[ "$1" == "site" ]]; then
   bundle exec jekyll build
   cp -r _site/* docs/
 
+elif [[ "$1" == "livereload" ]]; then
+
+  echo "Start jekyll auto livereload"
+
+  bundle exec jekyll clean  
+  bundle exec jekyll serve --livereload --host=0.0.0.0
+
 else
 
   echo "Start jekyll auto incremental"
