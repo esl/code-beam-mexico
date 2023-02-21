@@ -1964,6 +1964,18 @@ ul.lang {
     min-height: 53em;
   }
 }
+.register-widget .marquee {
+  width: 80%;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3em;
+  background-color: #399227;
+}
+.register-widget .marquee a {
+  color: #15e6ff;
+}
 
 .newsletter .form-container {
   display: flex;
