@@ -190,6 +190,14 @@
             </li>
         
             <li>
+                <a class="page-scroll" href="#register">
+                    
+                        Register
+                    
+                </a>
+            </li>
+        
+            <li>
                 <a class="page-scroll" href="#members">
                     
                         Committee
@@ -265,7 +273,8 @@
     <span class="text-content mb-1">
       <ul>
         <li>2 days</li>
-        <li>In person and Virtual Conferences</li>
+        <li>In person <span style="background:white; color:black"> &nbsp sold out &nbsp</span></li>
+        <li>Virtual Conferences</li>
       </ul>
     </span>
     <p> LEARN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -273,7 +282,8 @@
         INSPIRE
     </p>
     <p>
-      <!-- <a class="page-scroll btn-outline btn-green-dark ml-1" href="#register" target="_blank">REGISTER</a> -->
+      <!-- <a class="page-scroll btn-outline btn-green-dark" href="#register" target="_blank" style="display: block; text-align: center;"><s>REGISTER</s><br>sold out</a> -->
+      <a class="page-scroll btn-outline btn-green-dark" href="#register" target="_blank">REGISTER</a>
       <!-- <a href="#register">Register</a> -->
        <!-- |  -->
       <!-- <a href="#cft">Call for speakers</a> | -->
@@ -4192,7 +4202,34 @@
 <!-- end of welcome -->
 
 <!-- end of travelling -->
- 
+<div class="section register-widget" id="register">
+    <h2 class="title">REGISTER</h2>
+    <hr/>
+    <div style="width:100%;"></div> 
+    <span class="marquee">Tickets for in person conferences are sold out<br>You can still join us at the <a href="#schedule">Virtual conferences</a></span>
+
+    <div class="register-widget" id="eventbrite-widget-container-451773495687">&nbsp;</div>
+
+    <script src="https://www.eventbrite.com.mx/static/widgets/eb_widgets.js"></script>
+    
+    <script type="text/javascript">
+        var exampleCallback = function() {
+            console.log('Order complete!');
+        };
+    
+        window.EBWidgets.createWidget({
+            // Required
+            widgetType: 'checkout',
+            eventId: '451773495687',
+            iframeContainerId: 'eventbrite-widget-container-451773495687',
+    
+            // Optional
+            iframeContainerHeight: 700,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+            onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+        });
+    </script>
+</div>
+
 <!-- end of register -->
 
 <!-- end of cft  -->

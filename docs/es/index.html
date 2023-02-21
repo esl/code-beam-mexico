@@ -190,6 +190,14 @@
             </li>
         
             <li>
+                <a class="page-scroll" href="#register">
+                    
+                        Registro
+                    
+                </a>
+            </li>
+        
+            <li>
                 <a class="page-scroll" href="#members">
                     
                         Comité
@@ -265,7 +273,8 @@
     <span class="text-content mb-1">
       <ul>
         <li>2 días</li>
-        <li>Conferencias presenciales y virtuales</li>
+        <li>Conferencias presenciales <span style="background:white; color:black">&nbsp entradas agotadas &nbsp</span></li>
+        <li>Conferencias virtuales</li>
         <!-- <li>Entrenamientos para principiantes y expertos</li> -->
       </ul>
     </span>
@@ -274,7 +283,8 @@
         INSPIRA
     </p>
     <p>
-      <!-- <a class="page-scroll btn-outline btn-green-dark ml-1" href="#register" target="_blank">REGISTRO</a> -->
+      <!-- <a class="page-scroll btn-outline btn-green-dark" href="#register" target="_blank" style="display: block; text-align: center;"><s>REGISTRO</s><br>agotado</a> -->
+      <a class="page-scroll btn-outline btn-green-dark ml-1" href="#register" target="_blank">REGISTRO</a>
       <!-- <a href="#register">Registro</a>  -->
       <!-- |  -->
       <!-- <a href="#cft">Call for speakers</a> | -->
@@ -4193,7 +4203,34 @@
 <!-- end of welcome -->
 
 <!-- end of travelling -->
- 
+<div class="section register-widget" id="register">
+    <h2 class="title">REGISTRO</h2>
+    <hr/>
+    <div style="width:100%;"></div> 
+    <span class="marquee">Las entradas para las conferencias presenciales están agotadas<br>Puedes acompañarnos en las <a href="#schedule">Conferencias Virtuales</a></span>
+
+    <div class="register-widget" id="eventbrite-widget-container-451773495687">&nbsp;</div>
+
+    <script src="https://www.eventbrite.com.mx/static/widgets/eb_widgets.js"></script>
+    
+    <script type="text/javascript">
+        var exampleCallback = function() {
+            console.log('Order complete!');
+        };
+    
+        window.EBWidgets.createWidget({
+            // Required
+            widgetType: 'checkout',
+            eventId: '451773495687',
+            iframeContainerId: 'eventbrite-widget-container-451773495687',
+    
+            // Optional
+            iframeContainerHeight: 700,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+            onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+        });
+    </script>
+</div>
+
 <!-- end of register -->
 
 <!-- end of cft  -->
