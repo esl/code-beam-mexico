@@ -780,6 +780,17 @@ ul.lang {
   line-height: 36px;
   text-align: center;
 }
+.cover .cover-column-live-banner {
+  padding: 0;
+  align-self: center;
+}
+.cover .cover-live-banner {
+  max-width: 600px;
+  width: 80%;
+  border-radius: 10px;
+  align-self: center;
+  border: 1px rgba(255, 255, 255, 0.2) solid;
+}
 
 .cft {
   background-color: rgb(4, 15, 12);
