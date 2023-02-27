@@ -1,3 +1,13 @@
+<dialog id="live-stream-dialog" class="live-stream-dialog">
+  <div class="live-stream-dialog-container">
+    <div class="live-stream-dialog-container-inside">
+      <form><button class="close-dialog" value="cancel">close</button></form>
+      <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/Erlang?src=hash&amp;ref_src=twsrc%5Etfw">#Erlang</a> and <a href="https://twitter.com/hashtag/Elixir?src=hash&amp;ref_src=twsrc%5Etfw">#Elixir</a> both utilise the <a href="https://twitter.com/hashtag/BEAM?src=hash&amp;ref_src=twsrc%5Etfw">#BEAM</a> VM and that clever piece of tech is what <a href="https://twitter.com/hashtag/CodeBEAM?src=hash&amp;ref_src=twsrc%5Etfw">#CodeBEAM</a> America is all about! <br>Find out more about the BEAM and unite with Erlang and Elixir Devs from all over the world at Code BEAM America. <a href="https://t.co/o2DLQtQtMa">pic.twitter.com/o2DLQtQtMa</a></p>&mdash; Code BEAM (@CodeBEAMio) <a href="https://twitter.com/CodeBEAMio/status/1559978447115632645?ref_src=twsrc%5Etfw">August 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</dialog>
+
+
 <div class="cover" id="cover" style="background-image: url('{{site.baseurl}}/assets/images/BG-web.jpg');">
   <div class="logo">
     <img
@@ -7,12 +17,13 @@
     />
   </div>
   <div class="col-right cover-column-live-banner">
+    <a href="#" id="showLiveDialog">
     <img 
       src="{{ site.baseurl }}/assets/images/banner-livemx-VIRTUAL_CONFERENCES_3.png" 
       alt="Live"
       class="cover-live-banner"
     />
-
+    </a>
   <!-- <div class="col-right"> -->
     <!-- <h4 class="date"> -->
       <!-- CODE BEAM LITE MEXICO 2023 <br /> CELEBRANDO 10 AÑOS DE ELIXIR<br /> -->
@@ -83,3 +94,21 @@
     </h4>
   </div>-->
 </div>
+
+
+
+<script>
+  // live stream dialog control
+
+  const showLiveDialog = document.getElementById('showLiveDialog')
+  const liveDialog = document.getElementById('live-stream-dialog')
+  
+  showLiveDialog.addEventListener('click', ()=>{
+    liveDialog.showModal()
+  })
+
+  liveDialog.addEventListener('click', ()=>{
+    liveDialog.close()
+  })
+</script>
+
