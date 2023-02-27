@@ -10,12 +10,20 @@ if [[ "$1" == "site" ]]; then
   bundle exec jekyll build --incremental
   cp -r _site/* docs/
 
-elif [[ "$1" == "livereload" ]]; then
+elif [[ "$1" == "live" ]]; then
 
   echo "Start jekyll auto livereload"
 
   bundle exec jekyll clean  
   bundle exec jekyll serve --livereload --host=0.0.0.0
+
+
+elif [[ "$1" == "help" ]]; then
+
+  echo "publish            #local server"
+  echo "publish live       #local server with livereload"
+  echo "publish site       #regenerate full site on docs/"
+  exit 0
 
 else
 
