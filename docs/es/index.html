@@ -255,7 +255,17 @@
         </li> -->
     </ul>
 </nav>
- <div class="cover" id="cover" style="background-image: url('/assets/images/BG-web.jpg');">
+ <dialog id="live-stream-dialog" class="live-stream-dialog">
+  <div class="live-stream-dialog-container">
+    <div class="live-stream-dialog-container-inside">
+      <form><button class="close-dialog" value="cancel">close</button></form>
+
+    </div>
+  </div>
+</dialog>
+
+
+<div class="cover" id="cover" style="background-image: url('/assets/images/BG-web.jpg');">
   <div class="logo">
     <img
       src="/assets/images/Logo_Lite_svg.svg"
@@ -264,12 +274,13 @@
     />
   </div>
   <div class="col-right cover-column-live-banner">
+    <a href="https://twitter.com/CodeBEAMLiteMX" id="showLiveDialog">
     <img 
       src="/assets/images/banner-livemx-VIRTUAL_CONFERENCES_3.png" 
       alt="Live"
       class="cover-live-banner"
     />
-
+    </a>
   <!-- <div class="col-right"> -->
     <!-- <h4 class="date"> -->
       <!-- CODE BEAM LITE MEXICO 2023 <br /> CELEBRANDO 10 AÑOS DE ELIXIR<br /> -->
@@ -341,6 +352,25 @@
   </div>-->
 </div>
 
+
+
+<script>
+  // live stream dialog control
+
+  // const showLiveDialog = document.getElementById('showLiveDialog')
+  // const liveDialog = document.getElementById('live-stream-dialog')
+  
+  // showLiveDialog.addEventListener('click', ()=>{
+  //   liveDialog.showModal()
+  // })
+
+  // liveDialog.addEventListener('click', ()=>{
+  //   liveDialog.close()
+  // })
+
+</script>
+
+
 <!-- end of cover -->
 
 <!-- end of hybrid banner -->
@@ -389,7 +419,7 @@
       <div id="3march" class="tabcontent" style="display: block">
         <p>Virtual talks</p>
         <!-- <p>Friday, March 3th</p> -->
-        <p><a href="#venue">At Twitter live @CodeBEAMLiteMX</a></p>
+        <p><a href="https://twitter.com/CodeBEAMLiteMX">At Twitter live @CodeBEAMLiteMX</a></p>
         <br />
         
 
