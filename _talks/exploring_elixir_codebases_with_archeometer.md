@@ -21,3 +21,5 @@ What if we could obtain metadata that describes a software system from another p
  
 Think of Archeometer as a device you can use to get an understanding of the overall design and quality of an Elixir based system, a lab in which you can interactively tune parameters and adjust zoom levels to get a pretty good grasp of a perhaps huge and not so pretty code base, an oracle for answering questions like: which are the core modules of the system? which are the parts of the system most difficult to understand? which are the ones I must be most careful dealing with? which parts are nice, safe and green?+K3
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M-94luVihJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
