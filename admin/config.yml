@@ -3,7 +3,7 @@
 backend:
   name: github
   repo: esl/code-beam-mexico
-  branch: main # Branch to update (optional; defaults to master)
+  branch: master # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
