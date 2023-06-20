@@ -7,7 +7,7 @@
         </div>
     </div>
     <ul class="nav navigation-bar">
-        {% for item in site.data.navigation %}
+        {% for item in site.data.navigation.items %}
             <li>
                 <a class="page-scroll" href="#{{ item.link }}">
                     {% if page.path == "es/index.html" %}

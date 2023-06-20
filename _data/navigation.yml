@@ -1,65 +1,66 @@
-#- name: Home
-#  link: "cover"
-- name: Welcome
-  link: "welcome"
-  es: "Bienvenidos"
-- name: Schedule
-  link: "schedule"
-  es: "Agenda"
-- name: Speakers
-  link: "keynotes"
-  es: "Keynotes"
-# - name: Training
-#   link: "training"
-#   es: "Entrenamientos"
-- name: Register
-  link: "register"
-  es: "Registro"
-#- name: Call for Talks
-#  link: "cft"
-#  es: "Participa"
-# name: Newsletter
-#  link: "newsletter"
-#- name: Call for Tutorials
-#  link: "call-for-tutorials"
-#- name: All Recordings
-#  link: "recordings"
-#- name: Public videos
-#  link: "video"
-# - name: Schedule
-#   link: schedule
-# - name: Training
-#   link: "training"
-# - name: Volunteer
-  # link: "volunteer"
-  # es: "Voluntarios"
-# - name: Students
-#   link: "students"
-#   es: "Estudiantes"
-- name: Committee
-  link: "members"
-  es: "Comité"
-- name: Venues
-  link: "venue"
-  es: "Sedes"
-# - name: Diversity
-#   link: "diversity"
-#   es: "Diversidad"
-- name: Sponsors
-  link: "sponsors"
-  es: "Patrocinadores"
-# - name: Hotels
-#   link: "hotels"
-#- name: COVID-19 safety
-#  link: "covid-19"
-#- name: Hybrid
-#  link: "hybrid"
-#- name: E-SHOP
-#  link: "shop"
-#- name: Blog
-#  link: "blog"
-# - name: Sponsors
-#   link: "sponsors"
-# - name: Contact
-  # link: "contact"
-  # es: "Contacto"
+items:
+  #- name: Home
+  #  link: "cover"
+  - name: Welcome
+    link: "welcome"
+    es: "Bienvenidos"
+  - name: Schedule
+    link: "schedule"
+    es: "Agenda"
+  - name: Speakers
+    link: "keynotes"
+    es: "Keynotes"
+  # - name: Training
+  #   link: "training"
+  #   es: "Entrenamientos"
+  - name: Register
+    link: "register"
+    es: "Registro"
+  #- name: Call for Talks
+  #  link: "cft"
+  #  es: "Participa"
+  # name: Newsletter
+  #  link: "newsletter"
+  #- name: Call for Tutorials
+  #  link: "call-for-tutorials"
+  #- name: All Recordings
+  #  link: "recordings"
+  #- name: Public videos
+  #  link: "video"
+  # - name: Schedule
+  #   link: schedule
+  # - name: Training
+  #   link: "training"
+  # - name: Volunteer
+    # link: "volunteer"
+    # es: "Voluntarios"
+  # - name: Students
+  #   link: "students"
+  #   es: "Estudiantes"
+  - name: Committee
+    link: "members"
+    es: "Comité"
+  - name: Venues
+    link: "venue"
+    es: "Sedes"
+  # - name: Diversity
+  #   link: "diversity"
+  #   es: "Diversidad"
+  - name: Sponsors
+    link: "sponsors"
+    es: "Patrocinadores"
+  # - name: Hotels
+  #   link: "hotels"
+  #- name: COVID-19 safety
+  #  link: "covid-19"
+  #- name: Hybrid
+  #  link: "hybrid"
+  #- name: E-SHOP
+  #  link: "shop"
+  #- name: Blog
+  #  link: "blog"
+  # - name: Sponsors
+  #   link: "sponsors"
+  # - name: Contact
+    # link: "contact"
+    # es: "Contacto"
