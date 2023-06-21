@@ -7,8 +7,7 @@ logo: "./assets/images/logo2022.png"
 
 # google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
-include: [archives]
-         [admin]
+include: [archives, admin]
 
 exclude:
 - docs/
