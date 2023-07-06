@@ -20,19 +20,6 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'keynotes'
-    label: 'Keynotes'
-    folder: '_keynotes/'
-    extension: 'md'
-    create: true
-    slug: '{{slug}}'
-    fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Participants', name: 'participants', widget: 'list' }
-      - { label: 'Audience', name: 'audience', widget: 'list' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'participants'
     label: 'Participants'
     folder: '_participants/'
@@ -46,6 +33,50 @@ collections:
       - { label: 'Tagline', name: 'tagline', widget: 'string' }
       - { label: 'Github', name: 'github', widget: 'string' }
       - { label: 'Twitter', name: 'twitter', widget: 'string' }    
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'keynotes'
+    label: 'Keynotes'
+    folder: '_keynotes/'
+    extension: 'md'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Participants', name: 'participants', widget: 'list' }
+      - { label: 'Audience', name: 'audience', widget: 'list' }
+      - { label: 'Publish Date', name: 'datetime', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'talks'
+    label: 'Talks'
+    folder: '_talks/'
+    create: true
+    slug: '{{slug}}'
+    extension: 'md'
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Audience', name: 'audience', widget: 'list' }
+      - { label: 'Language', name: 'language', widget: 'list' }
+      - { label: 'Duration', name: 'duration', widget: 'list' }
+      - { label: 'Tags', name: 'tags', widget: 'string' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Speakers', name: 'speakers', widget: 'list' }
+      - { label: 'Audience', name: 'audience', widget: 'list' }
+      - { label: 'Publish Date', name: 'datetime', widget: 'datetime' }
+      - { label: 'Published', name: "published", widget: "boolean" }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'training'
+    label: 'Training'
+    folder: '_training/'
+    create: true
+    slug: '{{slug}}'
+    extension: 'md'
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Experience', name: 'experience', widget: 'list' }
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Type', name: 'type', widget: 'string' }
+      - { label: 'Trainers', name: 'trainers', widget: 'list' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'config'
     label: 'Config'
