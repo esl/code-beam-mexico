@@ -5,6 +5,7 @@ backend:
   repo: esl/code-beam-mexico
   #branch: master # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
+publish_mode: editorial_workflow
 collections:
   - name: 'blog'
     label: 'Blog'
@@ -15,8 +16,36 @@ collections:
       preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Autor', name: 'autor', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'keynotes'
+    label: 'Keynotes'
+    folder: '_keynotes/'
+    extension: 'md'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Participants', name: 'participants', widget: 'list' }
+      - { label: 'Audience', name: 'audience', widget: 'list' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'participants'
+    label: 'Participants'
+    folder: '_participants/'
+    create: true
+    slug: '{{slug}}'
+    extension: 'md'
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Pic_url', name: 'pic_url', widget: 'image' }
+      - { label: 'Tagline', name: 'tagline', widget: 'string' }
+      - { label: 'Github', name: 'github', widget: 'string' }
+      - { label: 'Twitter', name: 'twitter', widget: 'string' }    
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'config'
     label: 'Config'
