@@ -22,7 +22,6 @@ collections:
       - { label: 'Pic_url', name: 'pic_url', widget: 'image' }      
       - { label: 'Tags', name: 'tags', widget: 'string' } 
       - { label: 'Published', name: 'published', widget: 'boolean' }
-      - { label: 'Publish Date', name: 'datetime', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'participants'
     label: 'Participants'
@@ -65,7 +64,6 @@ collections:
       - { label: 'Tags', name: 'tags', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Speakers', name: 'speakers', widget: 'list' }
-      - { label: 'Audience', name: 'audience', widget: 'list' }
       - { label: 'Publish Date', name: 'datetime', widget: 'datetime' }
       - { label: 'Published', name: 'published', widget: 'boolean' }
       - { label: 'Venue', name: 'venue', widget: 'string' }
