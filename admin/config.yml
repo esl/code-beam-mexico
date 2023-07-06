@@ -12,13 +12,16 @@ collections:
     folder: '_posts/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    extension: 'md'
     editor:
       preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Autor', name: 'autor', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Pic_url', name: 'pic_url', widget: 'image' }      
+      - { label: 'Tags', name: 'tags', widget: 'string' } 
+      - { label: 'Published', name: "published", widget: "boolean" }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'participants'
     label: 'Participants'
