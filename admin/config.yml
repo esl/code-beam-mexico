@@ -4,8 +4,9 @@ backend:
   name: git-gateway
   repo: esl/code-beam-mexico
   #branch: master # Branch to update (optional; defaults to master)
-media_folder: 'assets/uploads'
+media_folder: 'assets/images'
 publish_mode: editorial_workflow
+site_url: https://codebeammexico.com/
 collections:
   - name: 'blog'
     label: 'Blog'
