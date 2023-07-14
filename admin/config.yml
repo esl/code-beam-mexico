@@ -71,7 +71,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'training'
     label: 'Training'
-    folder: '_training/'
+    folder: '_trainings/'
     create: true
     slug: '{{slug}}'
     extension: 'md'
