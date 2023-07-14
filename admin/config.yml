@@ -36,7 +36,9 @@ collections:
       - { label: 'Pic_url', name: 'pic_url', widget: 'image' }
       - { label: 'Tagline', name: 'tagline', widget: 'string' }
       - { label: 'Github', name: 'github', widget: 'string' }
-      - { label: 'Twitter', name: 'twitter', widget: 'string' }    
+      - { label: 'Twitter', name: 'twitter', widget: 'string' }
+      - { label: 'Linkedin', name: 'linkedin', widget: 'string' }
+      - { label: 'Mastodon', name: 'mastodon', widget: 'string' }   
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'keynotes'
     label: 'Keynotes'
