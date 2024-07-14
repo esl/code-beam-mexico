@@ -2,7 +2,9 @@
 layout: default
 title: In place conference March 03-04, 2023 | Mexico City
 image: /assets/images/MX_BANNER_LITE.png
-
+modal: 
+  show: false
+  delay: 2000 
 ---
 {% include cover.html %}
 <!-- end of cover -->
@@ -70,6 +72,9 @@ image: /assets/images/MX_BANNER_LITE.png
 {% comment %} {% include newsletter.html %} {% endcomment %}
 <!-- end of newsletter -->
 {% include contact.html %}
+{% if page.modal.show == true %}
+  {% include modal.html %}
+{% endif %}
 <!-- end of contact -->
 <script>
   if (window.netlifyIdentity) {

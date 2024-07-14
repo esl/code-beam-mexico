@@ -1,0 +1,55 @@
+<!-- The modal -->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <!-- modal content here -->
+    <h3 class="title">Expand your experience</h3>
+    <p> Give yourself a chance to grow: add a comprehensive exploration of the topic that interests you the most to your Code BEAM experience. This year we offer you six training sessions.
+</p>
+  
+    <a id="btn-modal" class="page-scroll btn-outline btn-orange mb-4 mt-4 btn-orange inline-block" href="#training" target="_blank">
+      Check now
+    </a>
+  </div>
+</div>
+</div>
+
+<script>
+  // Get the modal element
+  var modal = document.getElementById("myModal");
+
+  // Get the <span> element that closes the modal
+  var closeBtn = document.getElementsByClassName("close")[0];
+  var btn = document.getElementById('btn-modal')
+
+  // Function to open the modal
+  function openModal() {
+    modal.style.display = "block";
+  }
+
+  // Function to close the modal
+  function closeModal() {
+    modal.style.display = "none";
+  }
+
+  // Event listener to close the modal when the close button is clicked
+  closeBtn.addEventListener("click", closeModal);
+  btn.addEventListener("click", closeModal);
+
+  // Event listener to close the modal when clicking on the backdrop
+  window.addEventListener("click", function (event) {
+    if (event.target === modal) {
+      closeModal();
+    }
+  });
+
+  // Event listener to close the modal when the "Escape" key is pressed
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+      closeModal();
+    }
+  });
+
+  // Open the modal after given modal seconds
+  setTimeout(openModal, '{{page.modal.delay}}');
+</script>
