@@ -163,6 +163,18 @@ a
 .section
   height: 35em
   width: 100%
+  &.section--carousel
+    height: auto
+    padding: 0
+.carousel-wrapper
+  width: 100%
+  margin: 0 auto
+  max-width: 95vw
+  @media screen and (min-width: 1024px)
+    margin: 0 auto
+    max-width: 1280px
+    padding-left: 2rem
+    padding-right: 2rem
 
 .btn-outline
   align-items: center
@@ -193,7 +205,6 @@ a
     outline: 2px solid #ccc
     color: $primary_color
     // color: #fff
-
 
 .btn-blue
   &:hover
